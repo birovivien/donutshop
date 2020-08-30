@@ -1,0 +1,160 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+
+}
+
+.container-fluid {
+  padding: 3% 10% 0;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6vw;
+  font-weight: bold;
+}
+
+.navbar .nav-item .nav-link{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3vw;
+}
+
+.first-container {
+  text-align: center;
+}
+
+.bg-colored {
+  background-color: #19a786;
+}
+
+.donuts-title-image {
+  width: 70vw;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+
+.background {
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+svg path {
+	fill: #fff;
+}
+
+/* Start Building Your Box Now */
+
+.donutbite {
+  width: 10%;
+  position: absolute;
+  right: 0;
+  top: 45vw;
+  overflow: hidden;
+}
+
+.section-heading {
+  font-size: 3vw;
+  margin-bottom: 5rem;
+  color: #733e5c;
+}
+
+#donuts {
+  padding: 100px;
+  text-align: center;
+}
+
+.card {
+  border: 5px solid #19a786;
+  border-radius: 6%;
+}
+
+.card-header {
+  background-color: transparent;
+  border: none;
+}
+
+.donut-name {
+  font-size: 1.7vw;
+  line-height: 1.5;
+  color: #733e5c;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.down {
+  margin-top: 5rem;
+}
+
+.btn-outline-dark {
+  color: #fff;
+  border-color: #19a786;
+  background-color: #19a786;
+}
+
+.selection-btn {
+  margin: 60px auto 0;
+}
+
+/****************
+MEDIA QUERIES
+****************/
+
+@media screen and (max-width: 1300px) {
+
+  .donuts-title-image {
+    padding-top: 1rem;
+  }
+
+  .background {
+    background-image: none;
+  }
+
+
+/* Start Building Your Box Now */
+  .section-heading {
+    font-size: 8vw;
+    margin-bottom: 2rem;
+  }
+
+
+  #donuts {
+    padding: 80px;
+  }
+
+  .down {
+    margin-top: 0;
+  }
+
+  .order-image {
+    width: 80%;
+  }
+
+  .donut-name {
+    font-size: 5vw;
+    line-height: 1.5;
+  }
+
+  .donutbite {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .navbar .navbar-brand {
+    font-size: 4vw;
+  }
+
+  .navbar .nav-item .nav-link{
+    font-size: 3vw;
+  }
+}
