@@ -150,6 +150,10 @@ MEDIA QUERIES
 
 
 @media screen and (max-width: 992px) {
+
+  .container-fluid {
+    padding: 1%;
+  }
   .navbar .navbar-brand {
     font-size: 3vh;
   }
