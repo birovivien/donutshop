@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Kanit', sans-serif;
   margin: 0;
 }
 
@@ -133,12 +133,26 @@ svg path {
     padding: 5%;
 }
 
+.since1995-title {
+  color: #733e5c;
+  font-weight: bold;
+}
+
+.since1995-text {
+  font-family: 'Montserrat';
+}
+
 .since1995-image {
   padding: 5% 0;
 }
 
 .since1995-title-image {
   width: 80%;
+}
+
+.fancy-text {
+  font-family: "Great Vibes", cursive;
+  color: #19a786;
 }
 
 
