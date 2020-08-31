@@ -64,6 +64,7 @@ svg path {
   font-size: 3vw;
   margin-bottom: 5rem;
   color: #733e5c;
+  font-weight: bold;
 }
 
 #donuts {
@@ -197,7 +198,7 @@ MEDIA QUERIES
   }
 
   .donut-name {
-    font-size: 3.5vw;
+    font-size: 5.5vw;
     line-height: 1.5;
   }
 
