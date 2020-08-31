@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 
 .container-fluid {
@@ -104,11 +105,54 @@ svg path {
   margin: 60px auto 0;
 }
 
+
+/* Freshly made since 1995 */
+
+.donutside {
+  width: 7%;
+  position: absolute;
+  right: 0;
+  top: 110vw;
+  overflow: hidden;
+}
+
+.donutside2 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 138vw;
+    overflow: hidden;
+}
+
+.row {
+  justify-content: center;
+
+}
+
+.since1995 {
+    padding: 5%;
+}
+
+.since1995-image {
+  padding: 5% 0;
+}
+
+.since1995-title-image {
+  width: 80%;
+}
+
+
+
+
 /****************
 MEDIA QUERIES
 ****************/
 
 @media screen and (max-width: 1300px) {
+
+  body {
+    text-align: center;
+  }
 
   .donuts-title-image {
     padding-top: 1rem;
@@ -127,7 +171,7 @@ MEDIA QUERIES
 
 
   #donuts {
-    padding: 80px;
+    padding: 70px;
   }
 
   .down {
@@ -143,7 +187,7 @@ MEDIA QUERIES
     line-height: 1.5;
   }
 
-  .donutbite {
+  .donutbite, .donutside, .donutside2 {
     display: none;
   }
 }
