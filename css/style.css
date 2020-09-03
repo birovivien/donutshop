@@ -24,6 +24,10 @@ body {
   font-size: 2.8vh;
 }
 
+.navbar-collapse {
+  text-align: center;
+}
+
 .first-container {
   text-align: center;
 }
@@ -61,7 +65,7 @@ body {
 }
 
 #section-heading {
-  font-size: 3vw;
+  font-size: 5vh;
   margin-bottom: 5rem;
   color: #733e5c;
   font-weight: bold;
@@ -380,6 +384,11 @@ MEDIA QUERIES
 
   .donutbite, .donutside, .donutside2 {
     display: none;
+  }
+
+  #donuts {
+    padding: 15%;
+    text-align: center;
   }
 
   .down {
