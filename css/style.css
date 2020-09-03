@@ -13,15 +13,15 @@ body {
 
 .navbar .navbar-brand {
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.6vw;
+  font-family: 'Kanit', sans-serif;
+  font-size: 3.5vh;
   font-weight: bold;
 }
 
 .navbar .nav-item .nav-link{
   color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.3vw;
+  font-family: 'Kanit', sans-serif;
+  font-size: 2.8vh;
 }
 
 .first-container {
@@ -60,15 +60,19 @@ body {
   overflow: hidden;
 }
 
-.section-heading {
+#section-heading {
   font-size: 3vw;
   margin-bottom: 5rem;
   color: #733e5c;
   font-weight: bold;
 }
 
+.order-image {
+  width: 100%;
+}
+
 #donuts {
-  padding: 100px;
+  padding: 125px;
   text-align: center;
 }
 
@@ -83,7 +87,7 @@ body {
 }
 
 .donut-name {
-  font-size: 1.7vw;
+  font-size: 3vh;
   line-height: 1.5;
   color: #733e5c;
 }
@@ -100,6 +104,11 @@ body {
   color: #fff;
   border-color: #19a786;
   background-color: #19a786;
+}
+
+.btn-outline-dark:hover {
+  border-color: #733e5c;
+  background-color: #733e5c;
 }
 
 .selection-btn {
@@ -131,7 +140,7 @@ body {
 }
 
 .since1995 {
-    padding: 5%;
+  padding-top: 5%;
 }
 
 .since1995-title {
@@ -143,12 +152,8 @@ body {
   font-family: 'Montserrat';
 }
 
-.since1995-image {
-  padding: 5% 0;
-}
-
 .since1995-title-image {
-  width: 80%;
+  width: 90%;
 }
 
 .fancy-text {
@@ -222,6 +227,7 @@ body {
 
   .address {
     color: #733e5c;
+    font-size: 3vh;
   }
 
   .donutshop {
@@ -255,7 +261,8 @@ body {
   }
 
   .icons {
-    padding-left: 5%;
+    padding-bottom: 10%;
+    margin-left: 5%;
     font-size: 19px;
   }
 
@@ -267,10 +274,18 @@ body {
 MEDIA QUERIES
 ****************/
 
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 993px) and (max-width: 1300px) {
 
   body {
     text-align: center;
+  }
+
+  .navbar .navbar-brand {
+    font-size: 2.5vh;
+  }
+
+  .navbar .nav-item .nav-link{
+    font-size: 1.8vh;
   }
 
   .donuts-title-image {
@@ -283,11 +298,10 @@ MEDIA QUERIES
 
 
 /* Start Building Your Box Now */
-  .section-heading {
+  #section-heading {
     font-size: 8vw;
     margin-bottom: 2rem;
   }
-
 
   #donuts {
     padding: 70px;
@@ -297,13 +311,12 @@ MEDIA QUERIES
     margin-top: 0;
   }
 
-  .order-image {
-    width: 80%;
+  .donut-name {
+    font-size: 2vh;
   }
 
-  .donut-name {
-    font-size: 5.5vw;
-    line-height: 1.5;
+  .order-image {
+    width: 70%;
   }
 
   .donutbite, .donutside, .donutside2 {
@@ -326,6 +339,25 @@ MEDIA QUERIES
   .checkout {
     font-size: 2.7vw;
   }
+
+  .name {
+    font-size: 4vh;
+  }
+
+  .links {
+    font-size: 2.4vh;
+  }
+
+  .icons {
+    font-size: 2.6vh;
+    margin-left: 4%;
+  }
+
+  .email {
+    padding-top: 10%;
+    font-size: 2.5vh;
+  }
+
 }
 
 
@@ -342,8 +374,41 @@ MEDIA QUERIES
     font-size: 3vh;
   }
 
+  .background {
+    background-image: none;
+  }
+
+  .donutbite, .donutside, .donutside2 {
+    display: none;
+  }
+
+  .down {
+    margin-top: 0;
+  }
+
+  .pricing-column {
+    margin: 4% 0;
+  }
+
+  .card-header {
+    padding: 0;
+  }
+
+  .card-body {
+    padding: 1.2rem .5rem;
+  }
+
+  .order-image {
+    width: 65%;
+    padding: 5%;
+  }
+
+  #since1995 {
+    text-align: center;
+  }
+
   .openinghours {
-      text-align: center;
+    text-align: center;
   }
 
   .openinghours-title {
@@ -367,4 +432,33 @@ MEDIA QUERIES
   .openinghours-title-image {
     width: 35%;
   }
+
+  .donutshop, .links, .icons-container {
+    text-align: center;
+  }
+
+  .icons-container {
+    padding: 0;
+  }
+
+  .links {
+    font-size: 3vh;
+  }
+
+  .links, .email {
+    padding: 5% 0;
+  }
+
+  .icons {
+
+  }
+
+  .icons {
+    padding: 3%;
+    margin-left: 0;
+    font-size: 2.5vh;
+  }
+
+
+
 }
